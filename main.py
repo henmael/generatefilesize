@@ -7,7 +7,7 @@ fi = open("testingfile.txt", "a")
 def create_random_sentences(size):
     for i in range(0, size):
         if Path("testingfile.txt").stat().st_size != (i + 1):
-            fi.write("a")
+            fi.write("A")
 
 
 if __name__ == '__main__':
