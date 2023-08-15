@@ -4,8 +4,8 @@ from pathlib import Path
 fi = open("testingfile.txt", "a")
 
 
-def create_random_sentences(filesize):
-    for i in range(0, filesize):
+def create_random_sentences(size):
+    for i in range(0, size):
         if Path("testingfile.txt").stat().st_size != (i + 1):
             fi.write("a")
 
