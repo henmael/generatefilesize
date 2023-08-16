@@ -23,3 +23,4 @@ if __name__ == '__main__':
             print("The value needs to be a whole number!")
     create_random_sentences(int(filesize))
     print("Successful input")
+    fi.close()
